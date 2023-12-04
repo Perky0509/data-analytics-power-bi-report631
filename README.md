@@ -65,7 +65,38 @@ Hierarchies - I made two hierarchies during this milestone; a Date Hierarchy and
 
 
 ### - Milestone 5 overview
+This milestone was all about creating a Customer Detail report page. The visuals I added were: card visuals, a line chart, a bar chart, a doughnut chart and a top 20 table with accompanying card visuals: 
+
+<img width="1004" alt="Screenshot 2023-12-04 at 14 37 47" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/c80b6da1-67fb-4180-8728-bc2df2a13495">
+
+The most challenging aspect of this task to me was to make a table look aesthetically pleasing on a report page - something I think can be quite tricky! In order to make is less obtrusive I made it shorter and allowed for the user to scroll through the results rather than view all that data at once. I had applied a topN filter of 20 to the measure so that is all that is shown when scrolling.
+
+In order to gather the data to create the top customer(s) information I made the following calculated table:
+
+<img width="575" alt="Screenshot 2023-12-04 at 14 35 40" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/1cc3446b-0ef2-4bf4-87c5-6b07f9d6d42f">
+
+
+
+I also added a date slicer at the bottom RH corner of the page. While the line graph allowed for drilling down through the periods of time in my date hierarchy, this allowed for even more depth/flexibility for analysis. Eg this shows the report page showing data relating from 2010 to 2014 (see bottom right of the screenshot):
+
+<img width="1004" alt="Screenshot 2023-12-04 at 14 37 39" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/d9795e95-c566-45f1-958b-db905103ed31">
+
+
+
 ### - Milestone 6 overview
+The aim of this milestone was to create the Executive Summary report page:
+<img width="995" alt="Screenshot 2023-12-04 at 14 27 41" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/da8c1008-86e5-447d-8392-a753d35a68a3">
+
+
+To maximise the consistency of the report's design, as well as having the same theme, I utilised the formatting of relevant charts I'd created in for the Customer Detail page. This included the doughnut chart and the line chart. 
+
+On top of those charts I also inserted three KPI visuals. These were for: profit, revenue and orders. In order to do this I first calculated new measures for the three areas - first, the sum of the previous quarter and then the target for this quarter (set at 5% higher than the previous quarter). Eg for revenue: 
+
+<img width="579" alt="Screenshot 2023-12-04 at 14 54 17" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/b7fba4e3-8929-47d0-85b2-094390d3fb26">
+
+<img width="440" alt="Screenshot 2023-12-04 at 14 54 31" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/e92c517f-2e54-48dd-b811-e4628627ecbb">
+
+
 ### - Milestone 7 overview
 ### - Milestone 8 overview
 ### - Milestone 9 overview
