@@ -1,21 +1,25 @@
 # Data Analytics Power BI Report
 
 ## Table of Contents
-## Project Description
-## Milestone 2 overview 
-## Milestone 3 overview
-## Milestone 5 overview
-## Milestone 6 overview
-## Milestone 7 overview
-## Milestone 8 overview
-## Milestone 9 overview
-## Milestone 10 overview
-## Installation Instructions
-## Usage Instructions
-## File Structure
-## Licence 
+### N.B.
+### Project Description
+### Milestone 2 overview 
+### Milestone 3 overview
+### Milestone 5 overview
+### Milestone 6 overview
+### Milestone 7 overview
+### Milestone 8 overview
+### Milestone 9 overview
+### Milestone 10 overview
+### Installation Instructions
+### Usage Instructions
+### File Structure
+### Licence 
 
-### - Project Description
+## N.B.
+It is important to note that at various points during the project there were things that needed adjusting - for example a few of the graph titles and also some code I wasn't quite sure was correct at the time. These were all sorted out by the time the report was complete and therefore the final screenshots/available report show accurate figures and neater formatting. Thank you.
+
+## - Project Description
 This project aims to evaluate and analyse a collection of tables that pertain to the sales of certain products. I worked on it end-to-end; from importing the data tables to publishing the report. 
 Please see below further details. I have given an overview of what was done at each milestone, with screenshots to illustrate the most important/technical points. 
 
@@ -98,6 +102,44 @@ On top of those charts I also inserted three KPI visuals. These were for: profit
 
 
 ### - Milestone 7 overview
+This milestone was all about building up the Product Detail report page. Included in this was: a scatter plot; guage visuals (based on a 10% q-to-q target); a histogram using the date hierarchy. Importantly also there I subbed the rectangle placeholder on the left side of the page for a navigation side bar. This I made by adding individual slicer on top of shapes (and formatted them to look as one) then adding two buttons - a filter and a back button. These became functional when I added bookmarks (one with the toolbar visible and one with it hidden) and connected one to each bar. I particularly enjoyed doing this section of the milestone! 
+
+
+This is the report page with no filters and no navigation side bar:
+<img width="917" alt="Screenshot 2023-12-06 at 15 16 48" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/107a6f4b-d246-493e-8487-e8ac1b9e6787">
+
+
+
+
+
+This is showing the navigation side bar; moreover showing that the products slicer can be multiple choice and that the country should be single only. Both can use 'select all' however.
+<img width="1069" alt="Screenshot 2023-12-06 at 15 13 30" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/0c1fe01b-8c9c-4dda-be1d-a212d59d2678">
+
+
+
+
+
+In order to create the guages I had to make new measures. I was able to use the "previous quarter orders" etc from the previous milestone, but this time I needed to make a new target - 10% above this previous quarter figure: 
+
+<img width="204" alt="Screenshot 2023-12-06 at 15 17 27" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/58ac49f2-31ac-45f4-99b8-fcbf7a233ed6">
+
+Previous Quarter Orders as an example:
+<img width="556" alt="Screenshot 2023-12-06 at 15 17 55" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/172b7603-0127-4407-b456-0f2945d5230b">
+
+Ten Percent Target Orders as an example:
+<img width="484" alt="Screenshot 2023-12-06 at 15 18 26" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/2ff594ab-5855-4471-90e7-430356301257">
+
+
+
+I also needed to make a measure to show profit per order: 
+
+<img width="423" alt="Screenshot 2023-12-06 at 15 18 05" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/6ca39b39-33cd-46c9-9e6a-bde6ffe671bf">
+
+Lastly, I made a new table that included a ranking column in order to show the top 10 products: 
+
+
+
+
 ### - Milestone 8 overview
 ### - Milestone 9 overview
 ### - Milestone 10 overview
