@@ -137,6 +137,8 @@ I also needed to make a measure to show profit per order:
 
 Lastly, I made a new table that included a ranking column in order to show the top 10 products: 
 
+<img width="863" alt="Screenshot 2023-12-06 at 15 43 45" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/e5e54616-2906-496d-8fe3-e9807b60a231">
+
 
 
 
