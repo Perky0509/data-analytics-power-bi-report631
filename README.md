@@ -23,7 +23,7 @@ It is important to note that at various points during the project there were thi
 This project aims to evaluate and analyse a collection of tables that pertain to the sales of certain products. I worked on it end-to-end; from importing the data tables to publishing the report. 
 Please see below further details. I have given an overview of what was done at each milestone, with screenshots to illustrate the most important/technical points. 
 
-### - Milestone 2 overview 
+## - Milestone 2 overview 
 As I have a mac I needed to create an Azure VM and connect that to the Microsoft Remote Desktop before I could get started. I chose a Windows 11 machine for this. 
 
 The main aim of this milestone was to get all the necessary tables imported and to perform a few simple transformations. 
@@ -31,7 +31,7 @@ The main aim of this milestone was to get all the necessary tables imported and 
 The tables came from a variety of sources, including: SQL Server, Azure Blog storage and CSV. I also had to combine and load a set of three files that I had downloaded within a folder. 
 The transformations I did were basic operations such as: removing columns with sensitive information and irrelevant columns; creating calculated columns to eg concatinate the values in two columns; changing the data types and making sure that the names of the columns and the tables followed the Power BI naming conventions. 
 
-### - Milestone 3 overview
+## - Milestone 3 overview
 Data Model - For this project I created a star schema model, with the Orders table as the fact table.
 <img width="848" alt="Screenshot 2023-11-27 at 21 32 17" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/b2461025-1544-461d-9e27-c1ef0d9eecb2">
 
@@ -68,7 +68,7 @@ Hierarchies - I made two hierarchies during this milestone; a Date Hierarchy and
 <img width="163" alt="Screenshot 2023-11-27 at 21 35 05" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/6559b1b1-7119-434c-9327-dc31170d0cd8">
 
 
-### - Milestone 5 overview
+## - Milestone 5 overview
 This milestone was all about creating a Customer Detail report page. The visuals I added were: card visuals, a line chart, a bar chart, a doughnut chart and a top 20 table with accompanying card visuals: 
 
 <img width="1004" alt="Screenshot 2023-12-04 at 14 37 47" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/c80b6da1-67fb-4180-8728-bc2df2a13495">
@@ -87,7 +87,7 @@ I also added a date slicer at the bottom RH corner of the page. While the line g
 
 
 
-### - Milestone 6 overview
+## - Milestone 6 overview
 The aim of this milestone was to create the Executive Summary report page:
 <img width="995" alt="Screenshot 2023-12-04 at 14 27 41" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/da8c1008-86e5-447d-8392-a753d35a68a3">
 
@@ -101,7 +101,7 @@ On top of those charts I also inserted three KPI visuals. These were for: profit
 <img width="440" alt="Screenshot 2023-12-04 at 14 54 31" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/e92c517f-2e54-48dd-b811-e4628627ecbb">
 
 
-### - Milestone 7 overview
+## - Milestone 7 overview
 This milestone was all about building up the Product Detail report page. Included in this was: a scatter plot; guage visuals (based on a 10% q-to-q target); a histogram using the date hierarchy. Importantly also there I subbed the rectangle placeholder on the left side of the page for a navigation side bar. This I made by adding individual slicer on top of shapes (and formatted them to look as one) then adding two buttons - a filter and a back button. These became functional when I added bookmarks (one with the toolbar visible and one with it hidden) and connected one to each bar. I particularly enjoyed doing this section of the milestone! 
 
 
@@ -142,7 +142,42 @@ Lastly, I made a new table that included a ranking column in order to show the t
 
 
 
-### - Milestone 8 overview
+## - Milestone 8 overview
+Here I created a new tab to be able to drill through information about stores, based on the geography hierarchy I previously made: 
+<img width="995" alt="Screenshot 2023-12-06 at 21 55 45" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/3ae959da-2801-4312-9fea-1ad2d3c23329">
+
+
+
+
+In order to calculate the performance guages I needed to do two new measures - Profit Goal and Revenue Goal, which was a 20% year on year target. For examply the Revenue Goal DAX expression: 
+<img width="684" alt="Screenshot 2023-12-06 at 21 59 02" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/51f1b806-41a3-4200-8c98-bee731b41d13">
+
+
+
+For the table visual I created a new table in data view to breakdown each variable by product description and then rank by revenue:
+<img width="781" alt="Screenshot 2023-12-06 at 21 59 49" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/a8ce9404-cc44-4ca4-a557-6132361efb26">
+
+
+
+
+I also created a map visual to see the locations of stores - from world region to country region (eg Aberdeenshire). 
+
+World Region: 
+<img width="995" alt="Screenshot 2023-12-06 at 21 54 53" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/6601a207-7ae2-43bc-a994-4d051f69ba39">
+
+
+
+Country Region: 
+
+<img width="995" alt="Screenshot 2023-12-06 at 21 55 18" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/c1eb7a39-b974-4c0d-8922-0c0f192f3440">
+
+
+Going one step further I added a tooltip page to the report and linked the map visual to that so when you hover over a location bubble you can see the performance of a chosen region/store instantly:
+
+<img width="990" alt="Screenshot 2023-12-06 at 21 57 14" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/d3eba6b1-0410-4fa6-bedb-0f0b4d2b82d4">
+
+
+
 ### - Milestone 9 overview
 ### - Milestone 10 overview
 
