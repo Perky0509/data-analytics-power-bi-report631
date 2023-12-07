@@ -179,6 +179,31 @@ Going one step further I added a tooltip page to the report and linked the map v
 
 
 ### - Milestone 9 overview
+In this penultimate milestone I made some simple adjustments in order to optimise the report quality. This meant managing interactions between visuals and creating an icon based navigation bar. These will both enhance the interactivity of the report, and also make it more sophisticated. 
+
+The navigation bar is identical across report pages and looks like this: 
+
+<img width="1006" alt="Screenshot 2023-12-07 at 21 31 16" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/74c2d4c4-f197-446c-b6c9-35c2fb391425">
+
+
+Having said that, one small difference is on the Product Detail Page. Because of the disappearing toolbar created in the previous milestone, this navigation bar has the addition of the filter icon that opens the toolbar underneath the page icons:
+
+<img width="990" alt="Screenshot 2023-12-07 at 21 32 33" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/fc3f8d3d-5b8d-4865-84d9-ebf65cef199b">
+
+
+All of the icons highlight blue when hovered over: 
+
+<img width="1002" alt="Screenshot 2023-12-07 at 21 33 23" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/91f66a13-a9a7-41db-b2c5-bb178ab95698">
+
+
+
+An example of editing the interactions between visuals is that on the Customer Detail page I restricted the top 10 customers table so that it did not impact (cross-filter) on any of the other visuals on the page:
+
+<img width="990" alt="Screenshot 2023-12-07 at 21 35 05" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/a8b828ec-ce7d-484f-b42c-51e37284c0c6">
+
+
+
+
 ### - Milestone 10 overview
 
 ### - Usage Instructions
