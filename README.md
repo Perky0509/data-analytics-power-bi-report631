@@ -205,6 +205,46 @@ An example of editing the interactions between visuals is that on the Customer D
 
 
 ### - Milestone 10 overview
+Here I briefly moved away from the Power BI platform to VS Code in order to do some SQL queries on the data I'm reoporting on. I wanted to know things like: 
+
+How many staff there are in UK stores?:
+
+<img width="597" alt="Screenshot 2023-12-10 at 23 49 50" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/02f8a940-572f-434a-8f5a-da3d6ab0ea92">
+
+
+
+
+Which month of 2022 had the highest revenue overall?:
+
+![Screenshot 2023-12-10 at 23 55 02](https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/39bdd092-93bb-4dac-b2a6-5c9326b1235f)
+
+
+
+
+Which German store type had the highest revenue in 2022?:
+
+
+![Screenshot 2023-12-10 at 23 56 03](https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/3217f0cc-795f-4fb5-8a73-d01c5c43b6c7)
+
+
+
+
+Which product category generated the most profit in Wiltshire (UK) in 2021?: 
+
+![Screenshot 2023-12-10 at 23 58 15](https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/6120fe0c-1eba-4de1-a12e-00f0c412e239)
+
+
+
+For the above queries I made the following table using left outer joins (the left hand being the fact table - orders - from the db): 
+
+<img width="497" alt="Screenshot 2023-12-10 at 22 05 38" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/44811e3d-7c09-47c1-8b1c-548111b7bbbe">
+
+
+
+
+I also created a new view as a shortcut to seeing a few key metrics (number of sales, % of total sales and number of ordesr) per store type: 
+<img width="1309" alt="Screenshot 2023-12-10 at 23 29 03" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/745730d1-63e5-4394-9ee7-f3df527bdcdc">
+
 
 ### - Usage Instructions
 To see the data, please download the raw file. 
