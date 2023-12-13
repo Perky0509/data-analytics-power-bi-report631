@@ -11,6 +11,7 @@
 ### Milestone 8 overview
 ### Milestone 9 overview
 ### Milestone 10 overview
+### Final Touches and Formatting 
 ### Installation Instructions
 ### Usage Instructions
 ### File Structure
@@ -178,7 +179,7 @@ Going one step further I added a tooltip page to the report and linked the map v
 
 
 
-### - Milestone 9 overview
+## - Milestone 9 overview
 In this penultimate milestone I made some simple adjustments in order to optimise the report quality. This meant managing interactions between visuals and creating an icon based navigation bar. These will both enhance the interactivity of the report, and also make it more sophisticated. 
 
 The navigation bar is identical across report pages and looks like this: 
@@ -204,7 +205,7 @@ An example of editing the interactions between visuals is that on the Customer D
 
 
 
-### - Milestone 10 overview
+## - Milestone 10 overview
 Here I briefly moved away from the Power BI platform to VS Code in order to do some SQL queries on the data I'm reoporting on. I wanted to know things like: 
 
 How many staff there are in UK stores?:
@@ -242,8 +243,25 @@ For the above queries I made the following table using left outer joins (the lef
 
 
 
-I also created a new view as a shortcut to seeing a few key metrics (number of sales, % of total sales and number of ordesr) per store type: 
+I also created a new view as a shortcut to seeing a few key metrics (number of sales, % of total sales and number of orders) per store type: 
 <img width="1309" alt="Screenshot 2023-12-10 at 23 29 03" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/745730d1-63e5-4394-9ee7-f3df527bdcdc">
+
+
+## Final Touches and Formatting
+Here I simply corrected a couple of DAX expressions: 
+<img width="531" alt="Screenshot 2023-12-13 at 14 15 59" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/dfe8cc90-7b80-4833-b839-694bbfd69d30">
+
+
+Formatted the report pages: 
+<img width="829" alt="Screenshot 2023-12-13 at 14 15 05" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/8acfd336-3269-483c-99be-f8c76909695d">
+
+
+And added a 'Filtered By' Card on Product Details page:
+
+<img width="829" alt="Screenshot 2023-12-13 at 14 15 30" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/2f9a8d63-b7f6-41ba-bd30-816dea5dce8b">
+
+
+
 
 
 ### - Usage Instructions
