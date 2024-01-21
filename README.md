@@ -1,29 +1,45 @@
 # Data Analytics Power BI Report
 
 ## Table of Contents
-### N.B.
-### Project Description
-### Milestone 2 overview 
-### Milestone 3 overview
-### Milestone 5 overview
-### Milestone 6 overview
-### Milestone 7 overview
-### Milestone 8 overview
-### Milestone 9 overview
-### Milestone 10 overview
-### Final Touches and Formatting 
-### Installation Instructions
-### Usage Instructions
-### File Structure
-### Licence 
+[N.B.](#nb)
 
+[Project Description](#desc)
+
+[Milestone 2 overview](#2)
+
+[Milestone 5 overview](#5)
+
+[Milestone 3 overview](#3)
+
+[Milestone 6 overview](#6)
+
+[Milestone 7 overview](#7)
+
+[Milestone 8 overview](#8)
+
+[Milestone 9 overview](#9)
+
+[Milestone 10 overview](#10)
+
+[Final Touches and Formatting](#final)
+
+[Usage Instructions](#use)
+
+[File Structure](#strut)
+
+[Licence](#license)
+
+
+<a name="nb"></a>
 ## N.B.
 It is important to note that at various points during the project there were things that needed adjusting - for example a few of the graph titles and also some code I wasn't quite sure was correct at the time. These were all sorted out by the time the report was complete and therefore the final screenshots/available report show accurate figures and neater formatting. Thank you.
 
+<a name="desc"></a>
 ## - Project Description
 This project aims to evaluate and analyse a collection of tables that pertain to the sales of certain products. I worked on it end-to-end; from importing the data tables to publishing the report. 
 Please see below further details. I have given an overview of what was done at each milestone, with screenshots to illustrate the most important/technical points. 
 
+<a name="2"></a>
 ## - Milestone 2 overview 
 As I have a mac I needed to create an Azure VM and connect that to the Microsoft Remote Desktop before I could get started. I chose a Windows 11 machine for this. 
 
@@ -32,6 +48,7 @@ The main aim of this milestone was to get all the necessary tables imported and 
 The tables came from a variety of sources, including: SQL Server, Azure Blog storage and CSV. I also had to combine and load a set of three files that I had downloaded within a folder. 
 The transformations I did were basic operations such as: removing columns with sensitive information and irrelevant columns; creating calculated columns to eg concatinate the values in two columns; changing the data types and making sure that the names of the columns and the tables followed the Power BI naming conventions. 
 
+<a name="3"></a>
 ## - Milestone 3 overview
 Data Model - For this project I created a star schema model, with the Orders table as the fact table.
 <img width="848" alt="Screenshot 2023-11-27 at 21 32 17" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/b2461025-1544-461d-9e27-c1ef0d9eecb2">
@@ -69,6 +86,7 @@ Hierarchies - I made two hierarchies during this milestone; a Date Hierarchy and
 <img width="163" alt="Screenshot 2023-11-27 at 21 35 05" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/6559b1b1-7119-434c-9327-dc31170d0cd8">
 
 
+<a name="5"></a>
 ## - Milestone 5 overview
 This milestone was all about creating a Customer Detail report page. The visuals I added were: card visuals, a line chart, a bar chart, a doughnut chart and a top 20 table with accompanying card visuals: 
 
@@ -88,6 +106,7 @@ I also added a date slicer at the bottom RH corner of the page. While the line g
 
 
 
+<a name="6"></a>
 ## - Milestone 6 overview
 The aim of this milestone was to create the Executive Summary report page:
 <img width="995" alt="Screenshot 2023-12-04 at 14 27 41" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/da8c1008-86e5-447d-8392-a753d35a68a3">
@@ -102,6 +121,7 @@ On top of those charts I also inserted three KPI visuals. These were for: profit
 <img width="440" alt="Screenshot 2023-12-04 at 14 54 31" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/e92c517f-2e54-48dd-b811-e4628627ecbb">
 
 
+<a name="7"></a>
 ## - Milestone 7 overview
 This milestone was all about building up the Product Detail report page. Included in this was: a scatter plot; guage visuals (based on a 10% q-to-q target); a histogram using the date hierarchy. Importantly also there I subbed the rectangle placeholder on the left side of the page for a navigation side bar. This I made by adding individual slicer on top of shapes (and formatted them to look as one) then adding two buttons - a filter and a back button. These became functional when I added bookmarks (one with the toolbar visible and one with it hidden) and connected one to each bar. I particularly enjoyed doing this section of the milestone! 
 
@@ -143,6 +163,7 @@ Lastly, I made a new table that included a ranking column in order to show the t
 
 
 
+<a name="8"></a>
 ## - Milestone 8 overview
 Here I created a new tab to be able to drill through information about stores, based on the geography hierarchy I previously made: 
 <img width="995" alt="Screenshot 2023-12-06 at 21 55 45" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/3ae959da-2801-4312-9fea-1ad2d3c23329">
@@ -179,6 +200,7 @@ Going one step further I added a tooltip page to the report and linked the map v
 
 
 
+<a name="9"></a>
 ## - Milestone 9 overview
 In this penultimate milestone I made some simple adjustments in order to optimise the report quality. This meant managing interactions between visuals and creating an icon based navigation bar. These will both enhance the interactivity of the report, and also make it more sophisticated. 
 
@@ -204,7 +226,7 @@ An example of editing the interactions between visuals is that on the Customer D
 
 
 
-
+<a name="10"></a>
 ## - Milestone 10 overview
 Here I briefly moved away from the Power BI platform to VS Code in order to do some SQL queries on the data I'm reoporting on. I wanted to know things like: 
 
@@ -247,6 +269,7 @@ I also created a new view as a shortcut to seeing a few key metrics (number of s
 <img width="1309" alt="Screenshot 2023-12-10 at 23 29 03" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/745730d1-63e5-4394-9ee7-f3df527bdcdc">
 
 
+<a name="final"></a>
 ## Final Touches and Formatting
 Here I simply corrected a couple of DAX expressions: 
 <img width="531" alt="Screenshot 2023-12-13 at 14 15 59" src="https://github.com/Perky0509/data-analytics-power-bi-report631/assets/145782195/dfe8cc90-7b80-4833-b839-694bbfd69d30">
@@ -264,13 +287,16 @@ And added a 'Filtered By' Card on Product Details page:
 
 
 
+<a name="use"></a>
 ### - Usage Instructions
 To see the data, please download the raw file. 
 
+<a name="strut"></a>
 ### - File Structure
 This is a pbix file that contains the following imported tables: Orders, Products, Stores (a combination of three region tables) and Customers. It also includes tables created by me during the project, namely: Date and Measures Table. 
 The tables are in a star schema model. 
 
+<a name="license"></a>
 ### - Licence
 MIT
 
